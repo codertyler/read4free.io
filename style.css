@@ -2,3 +2,18 @@
     text-align: center;
     border-style: solid 1px gold;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20em;
+    flex-direction: column;
+
+}
